@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  <!--按照标准模式进行渲染-->
+    <meta name="keywords" content="华联商厦,北京华联商厦,新华联商厦">
+    <meta name="description" content="上海华联商厦股份有限公司上海华联商厦股份有限公司以多年经营的丰厚功底,北京华联商厦集聚了满足全国观光旅游客消费需求的丰富的极具特色的商品和品牌，新华联商厦受到消费者青睐。">
+    <title>上海华联商厦股份有限公司</title>
+    <link href="templates/PC/css/common.css" type="text/css" rel="stylesheet">
+    <link href="templates/PC/css/index.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="templates/PC/js/jquery.js"></script>
+
+    <script type="text/javascript" src="templates/PC/js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="templates/PC/js/base.js"></script>
+    <script type="text/javascript">
+        var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+        var browser = navigator.userAgent.toLowerCase();
+        var isMobile = false;
+        for (var i = 0; i < mobileAgent.length; i++) {
+            if (browser.indexOf(mobileAgent[i]) != -1) {
+                
+                //if (location.href.indexOf("dev") > 0) {
+                //    break;
+                //}
+                //else {
+                    isMobile = true;
+                    //alert(mobileAgent[i]);
+                    location.href = '/aspx/wap/index.aspx';
+                    break;
+                //}
+            }
+        }
+    </script>
+    <script>
+        var titleIndex = 0;
+    </script>
+</head>
+<body>
+<!--header.html start-->
+
+<script type="text/javascript" src="templates/PC/js/common.js"></script>
+<script>
+    $(function () {
+        $(".navMain>li").eq(titleIndex).removeClass().addClass("foucs clickF").siblings().removeClass().addClass("foucs");
+    })
+</script>
+<!--toper start-->
+<div class="topper">
+    <div class="topperMain">
+        <a class="zc" href="memberRegistration.html" target="_blank">免费注册</a>
+        客服热线：400-888-8888
+        <a href="#" class="phon">
+            <div class="wx"><img src="templates/PC/images/test/shouji.png"></div>
+        </a>
+        <a href="javascript:;" class="txun" target="_blank"></a>
+        <a href="javascript:;" class="xlang" target="_blank"></a>
+        <a href="javascript:;" class="qq" target="_blank"></a>
+        <div class="search">
+            <a href="javascript:void(0)" class="searchBtn" onclick="SiteSearch('/search.html', '#keywords');"></a>
+            <input id="keywords" name="keywords" class="searchMain" type="text" onkeydown="if(event.keyCode==13){SiteSearch('/search.html', '#keywords');return false};" placeholder="请输入商品关键词" x-webkit-speech="">
+        </div>
+    </div>
+</div>
+<!--nav start-->
+<div class="nav">
+    <a href="" class="logo">上海华联商厦股份有限公司</a>
+    <ul class="navMain">
+
+        <li class="foucs"><a href="" class="fontC">首页</a></li>
+        <li class="foucs">
+            <a href="aboutUs.html" class="fontC">走进华联</a>
+            <ul class="childList">
+                <li><a href="aboutUs.html#jianjie">企业简介</a></li>
+                <li><a href="aboutUs.html#zzJieg">组织结构</a></li>
+                <li><a href="aboutUs.html#dsj">大事记</a></li>
+                <li><a href="aboutUs.html#qyWh">企业文化</a></li>
+                <li><a href="aboutUs.html#qyStyle">企业风采</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="product-111-1.html" class="fontC">商品中心</a>
+            <ul class="childList">
+                <li><a href="product-111-1.html">促销产品</a></li>
+                <li><a href="hlfull-112-1.html">HL.FULL</a></li>
+                <li><a href="productList-113-1.html">产品展示</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="news-98-1.html" class="fontC">新闻关注</a>
+            <ul class="childList">
+                <li><a href="news-98-1.html">企业公告</a></li>
+                <li><a href="news-99-1.html">活动快讯</a></li>
+                <li><a href="news-100-1.html">新闻热点</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="allPlan.html" class="fontC">楼层介绍</a>
+            <ul class="childList">
+                <li><a href="allPlan.html">整体规划</a></li>
+                <li><a href="floorGuide.html">楼层介绍</a></li>
+                <li><a href="areaPic.html">分布平面图</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="popular-122-1.html" class="fontC">流行在线</a>
+            <ul class="childList">
+                <li><a href="popular-122-1.html">购物指导</a></li>
+                <li><a href="popular-123-1.html">流行风向</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="contactUs.html" class="fontC">客服中心</a>
+            <ul class="childList">
+                <li><a href="contactUs.html">联系我们</a></li>
+                <li><a href="feedBack.html">客户留言</a></li>
+                <li><a href="customerComplaints.html">客户投诉</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="employmentConception.html" class="fontC">人力资源</a>
+            <ul class="childList">
+                <li><a href="employmentConception.html">用人理念</a></li>
+                <li><a href="recruit-96-1.html">英才招聘</a></li>
+                <li><a href="resume.html">简历投递</a></li>
+            </ul>
+        </li>
+        <li class="foucs">
+            <a href="memberRegistration.html" class="fontC">会员中心</a>
+            <ul class="childList">
+                <li><a href="memberRegistration.html">会员注册</a></li>
+                <li><a href="onLineOrder.html">在线订单</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!--banner start-->
+<div class="sliderOne">
+    <ul class="sliderOneM">
+        
+        <li><img src="upload/202011/09/202011091533284958.jpg" alt="双十一"></li>
+        
+        <li><img src="http://www.hualian.sh.cn/upload/201904/30/201904301134227361.jpg" alt="轮播1"></li>
+        
+        <li><img src="upload/201607/10/201607101559362270.jpg" alt="轮播2"></li>
+        
+    </ul>
+    <ul class="tabOne">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<!--floorStor start-->
+<div class="floorStor">
+    <a href="floorGuide.html#fuyi" class="storOne">-1F</a>
+    <a href="floorGuide.html#one" class="storTwo">1F</a>
+    <a href="floorGuide.html#two" class="storThree">2F</a>
+    <a href="floorGuide.html#three" class="storFour">3F</a>
+    <a href="floorGuide.html#four" class="storFive">4F</a>
+    <a href="floorGuide.html#five" class="storSix">5F</a>
+</div>
+<!--about start-->
+<div class="about">
+    <span class="title">
+        <b>走进<i>华联</i></b>
+        <font>into hualian</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="sliderTwo">
+        <div class="sliderTwoM">
+            
+            <div class="sliderTwoMm">
+                
+                <img class="left" src="upload/201607/11/201607110900211444.jpg" width="444" height="396">
+                <div class="rightM">
+                    <span class="rightMT">
+                        company style
+                        <font>企业文化</font>
+                        <em class="inBotBor"></em>
+                    </span>
+                    <p><p>上海华联商厦股份有限公司有限责任公司始建于1987年，1990年9月1日建成开业，经营品种达四万余种。自开业至今，累计实现销售近40亿元，上缴利税近2亿元，为郑州市商贸城建设和财税收入作出了重要贡献。商厦先后获得全国“五一”劳动奖状、全国百家知名企业、全国无假冒伪劣商品商店、全国售后服务满意单位、全国商业信誉企业、中国保护消费者杯、全国打假先进单位等100多项荣誉称号，并曾连年跻身全国百家最大零售企业和全国500强企业行列。</p>
+                    <i class="jiaotou"></i>
+                </div>
+                <a href="aboutUs.html#jianjie" class="botMore">more</a>
+            </div>
+            
+            <div class="sliderTwoMm">
+                
+                <img class="left" src="upload/201607/11/201607110900211444.jpg" width="444" height="396">
+                <div class="rightM">
+                    <span class="rightMT">
+                        about us
+                        <font>关于我们</font>
+                        <em class="inBotBor"></em>
+                    </span>
+                    <p><p>上海华联商厦股份有限公司有限责任公司始建于1987年，1990年9月1日建成开业，经营品种达四万余种。自开业至今，累计实现销售近40亿元，上缴利税近2亿元，为郑州市商贸城建设和财税收入作出了重要贡献。商厦先后获得全国“五一”劳动奖状、全国百家知名企业、全国无假冒伪劣商品商店、全国售后服务满意单位、全国商业信誉企业、中国保护消费者杯、全国打假先进单位等100多项荣誉称号，并曾连年跻身全国百家最大零售企业和全国500强企业行列。</p>
+                    <i class="jiaotou"></i>
+                </div>
+                <a href="aboutUs.html#jianjie" class="botMore">more</a>
+            </div>
+            
+        </div>
+        <div class="tabTwo">
+            <a href="javascript:void(0)" class="prev"></a>
+            <a href="javascript:void(0)" class="next"></a>
+        </div>
+    </div>
+</div>
+<!--product start-->
+<div class="product">
+    <span class="title">
+        <b><i>商品</i>中心</b>
+        <font>commodities centre</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="productMain">
+        <ul class="tabBtn">
+            <li class="on"><a href="javascript:void(0);">促销产品</a></li>
+            <li><a href="javascript:void(0);">产品展示</a></li>
+        </ul>
+        <div class="tabMain">
+            <div class="tabMainM" id="productOne">
+                <ul class="tabMianList" id="tabMianListOne">
+                    
+                    <li>
+                        <a href="proCommon-273.html" title="名表" target="_blank">
+                            <img class="productPic" src="upload/201804/27/201804271522473282.jpg" width="233" height="244" alt="名表">
+                            <b class="bt">名表</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-357.html" title="煌明煌" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201804/27/201804271559354185.jpg" width="233" height="244" alt="煌明煌">
+                            <b class="bt">煌明煌</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-360.html" title="TOPSPORTS" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/202010/15/202010151545189280.png" width="233" height="244" alt="TOPSPORTS">
+                            <b class="bt">TOPSPORTS</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-359.html" title="杰克琼斯" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/202010/15/202010151549444341.png" width="233" height="244" alt="杰克琼斯">
+                            <b class="bt">杰克琼斯</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-283.html" title="361" target="_blank">
+                            <img class="productPic" src="upload/202010/15/202010151609561808.jpg" width="233" height="244" alt="361">
+                            <b class="bt">361</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-287.html" title="李宁" target="_blank">
+                            <img class="productPic" src="upload/202010/15/202010151622479330.jpg" width="233" height="244" alt="李宁">
+                            <b class="bt">李宁</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-284.html" title="骆驼" target="_blank">
+                            <img class="productPic" src="upload/202010/15/202010151559467137.jpg" width="233" height="244" alt="骆驼">
+                            <b class="bt">骆驼</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-358.html" title="化妆品" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/202004/10/202004100910009005.jpg" width="233" height="244" alt="化妆品">
+                            <b class="bt">化妆品</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <a href="javascript:void(0)" class="prev1"></a>
+                <a href="javascript:void(0)" class="next1"></a>
+            </div>
+            <div class="tabMainM" id="productTwo" style="display:none;">
+                <ul class="tabMianList" id="tabMianListTwo">
+                    
+                    <li>
+                        <a href="proCommon-396.html" title="手表1" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161132581542.jpg" width="233" height="244" alt="手表1">
+                            <b class="bt">手表1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-395.html" title="手表2" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161132384628.jpg" width="233" height="244" alt="手表2">
+                            <b class="bt">手表2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-394.html" title="手表3" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161132172158.jpg" width="233" height="244" alt="手表3">
+                            <b class="bt">手表3</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-393.html" title="手表4" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161131562265.jpg" width="233" height="244" alt="手表4">
+                            <b class="bt">手表4</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-392.html" title="手表5" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161131326630.jpg" width="233" height="244" alt="手表5">
+                            <b class="bt">手表5</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-391.html" title="手表6" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161131076728.jpg" width="233" height="244" alt="手表6">
+                            <b class="bt">手表6</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-389.html" title="运动器材1" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161129574414.jpg" width="233" height="244" alt="运动器材1">
+                            <b class="bt">运动器材1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-388.html" title="运动器材2" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161129186318.jpg" width="233" height="244" alt="运动器材2">
+                            <b class="bt">运动器材2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-387.html" title="鞋子1" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161128115947.jpg" width="233" height="244" alt="鞋子1">
+                            <b class="bt">鞋子1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-386.html" title="鞋子2" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161127501533.jpg" width="233" height="244" alt="鞋子2">
+                            <b class="bt">鞋子2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-385.html" title="鞋子3" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161127288837.jpg" width="233" height="244" alt="鞋子3">
+                            <b class="bt">鞋子3</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-384.html" title="鞋子4" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161127056513.jpg" width="233" height="244" alt="鞋子4">
+                            <b class="bt">鞋子4</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-382.html" title="箱包1" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161126047519.jpg" width="233" height="244" alt="箱包1">
+                            <b class="bt">箱包1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-381.html" title="箱包2" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161125305117.jpg" width="233" height="244" alt="箱包2">
+                            <b class="bt">箱包2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-380.html" title="品牌男装1" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161124447744.jpg" width="233" height="244" alt="品牌男装1">
+                            <b class="bt">品牌男装1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-379.html" title="品牌男装2" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161124091972.jpg" width="233" height="244" alt="品牌男装2">
+                            <b class="bt">品牌男装2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-378.html" title="品牌男装3" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161123508720.jpg" width="233" height="244" alt="品牌男装3">
+                            <b class="bt">品牌男装3</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-377.html" title="品牌男装4" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161122224345.jpg" width="233" height="244" alt="品牌男装4">
+                            <b class="bt">品牌男装4</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-376.html" title="品牌男装5" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161122021816.jpg" width="233" height="244" alt="品牌男装5">
+                            <b class="bt">品牌男装5</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-375.html" title="品牌男装6" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161121401181.jpg" width="233" height="244" alt="品牌男装6">
+                            <b class="bt">品牌男装6</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-374.html" title="女装1" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161121059355.jpg" width="233" height="244" alt="女装1">
+                            <b class="bt">女装1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-373.html" title="女装2" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161120392910.jpg" width="233" height="244" alt="女装2">
+                            <b class="bt">女装2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-372.html" title="女装3" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161120160878.jpg" width="233" height="244" alt="女装3">
+                            <b class="bt">女装3</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-371.html" title="男装1" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161119189960.jpg" width="233" height="244" alt="男装1">
+                            <b class="bt">男装1</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-370.html" title="男装2" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161118332060.jpg" width="233" height="244" alt="男装2">
+                            <b class="bt">男装2</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-369.html" title="男装3" target="_blank">
+                            <img class="productPic" src="upload/201608/16/201608161118030849.jpg" width="233" height="244" alt="男装3">
+                            <b class="bt">男装3</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-368.html" title="男装4" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161116333359.jpg" width="233" height="244" alt="男装4">
+                            <b class="bt">男装4</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-367.html" title="男装5" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161116104521.jpg" width="233" height="244" alt="男装5">
+                            <b class="bt">男装5</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-366.html" title="男装6" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161115163750.jpg" width="233" height="244" alt="男装6">
+                            <b class="bt">男装6</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-365.html" title="男装7" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161115457939.jpg" width="233" height="244" alt="男装7">
+                            <b class="bt">男装7</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="proCommon-361.html" title="男装8" target="_blank">
+                            <img class="productPic" src="http://www.hualian.sh.cn/upload/201608/16/201608161047226171.jpg" width="233" height="244" alt="男装8">
+                            <b class="bt">男装8</b>
+                            <font class="ms"></font>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <a href="javascript:void(0)" class="prev1"></a>
+                <a href="javascript:void(0)" class="next1"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--HL.FULL start-->
+<div class="HLFULL">
+    
+    <b class="red">HL.FULL</b>
+    <p class="miaos"></p>
+    <em class="botBor"></em>
+    <ul class="HLList">
+        
+    </ul>
+</div>
+<!--news start-->
+<div class="news">
+    <span class="title">
+        <b><i class="blue">新闻</i>关注</b>
+        <font>commodities centre</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="newsMain">
+        <ul class="tabBtns">
+            <li class="on"><a href="javascript:void(0);">企业公告</a></li>
+            <li><a href="javascript:void(0);">活动快讯</a></li>
+            <li><a href="javascript:void(0);">新闻热点</a></li>
+        </ul>
+        <div class="newsList">
+            <div class="newsListMm">
+                <ul class="newsListM">
+                    
+                </ul>
+                <a href="news-98-1.html" class="newsMore">more</a>
+            </div>
+            <div class="newsListMm" style="display:none;">
+                <ul class="newsListM">
+                    
+                </ul>
+                <a href="news-99-1.html" class="newsMore">more</a>
+            </div>
+            <div class="newsListMm" style="display:none;">
+                <ul class="newsListM">
+                    
+                </ul>
+                <a href="news-100-1.html" class="newsMore">more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--hezuo start-->
+<div class="hezuo">
+    <span class="title">
+        <b><i class="blue">合作</i>单位</b>
+        <font>commodities centre</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="hezuosM">
+        <ul class="hezuoMain">
+             
+            <li><a href="hezuodanwe-315.html" target="_blank"><img src="upload/201805/19/201805191001321122.jpg" width="240" height="145" alt="测试1"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190957338374.jpg" width="240" height="145" alt="测试2"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190957470194.jpg" width="240" height="145" alt="测试3"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190958024947.jpg" width="240" height="145" alt="测试4"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190958160979.jpg" width="240" height="145" alt="测试5"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190958286403.jpg" width="240" height="145" alt="测试6"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805191003006424.jpg" width="240" height="145" alt="测试7"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190959071256.jpg" width="240" height="145" alt="星巴克"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190959224760.jpg" width="240" height="145" alt="骆驼"></a></li>
+            
+            <li><a href="hezuodanwe-323.html" target="_blank"><img src="http://www.hualian.sh.cn/upload/201805/19/201805190956570057.jpg" width="240" height="145" alt="拉夏贝尔"></a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--footer start-->
+<div class="footer">
+    <div class="foot">
+        <dl class="footModule">
+            <dt class="moduleTitle">走进华联</dt>
+            <dd><a href="aboutUs.html#jianjie" target="_blank">企业简介</a></dd>
+            <dd><a href="aboutUs.html#zzJieg" target="_blank">组织结构</a></dd>
+            <dd><a href="aboutUs.html#dsj" target="_blank">大事记</a></dd>
+            <dd><a href="aboutUs.html#qyWh" target="_blank">企业文化</a></dd>
+            <dd><a href="aboutUs.html#qyStyle" target="_blank">企业风采</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">商品中心</dt>
+            <dd><a href="product-111-1.html" target="_blank">促销产品</a></dd>
+            <dd><a href="hlfull-112-1.html" target="_blank">HL.FULL</a></dd>
+            <dd><a href="productList-113-1.html" target="_blank">产品展示</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">新闻关注</dt>
+            <dd><a href="news-98-1.html" target="_blank">企业公告</a></dd>
+            <dd><a href="news-99-1.html" target="_blank">活动快讯</a></dd>
+            <dd><a href="news-100-1.html" target="_blank">新闻热点</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">楼层介绍</dt>
+            <dd><a href="allPlan.html" target="_blank">整体规划</a></dd>
+            <dd><a href="floorGuide.html" target="_blank">楼层介绍</a></dd>
+            <dd><a href="areaPic.html" target="_blank">分布平面图</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">流行在线</dt>
+            <dd><a href="popular-122-1.html" target="_blank">购物指导</a></dd>
+            <dd><a href="popular-123-1.html" target="_blank">流行风向</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">客服中心</dt>
+            <dd><a href="contactUs.html" target="_blank">联系我们</a></dd>
+            <dd><a href="feedBack.html" target="_blank">客户留言</a></dd>
+            <dd><a href="customerComplaints.html" target="_blank">客户投诉</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">人力资源</dt>
+            <dd><a href="employmentConception.html" target="_blank">用人理念</a></dd>
+            <dd><a href="recruit-96-1.html" target="_blank">英才招聘</a></dd>
+            <dd><a href="resume.html" target="_blank">简历投递</a></dd>
+        </dl>
+        <dl class="footModule">
+            <dt class="moduleTitle">会员中心</dt>
+            <dd><a href="memberRegistration.html" target="_blank">会员注册</a></dd>
+            <dd><a href="onLineOrder.html" target="_blank">在线订单</a></dd>
+        </dl>
+        <div class="footOther">
+            <p>联系上海华联商厦股份有限公司</p>
+            <p class="hm">全国统一联系热线</p>
+            <p class="hb">0371-66229656</p>
+            <p class="ym">地址：上海华联商厦股份有限公司有限责任公司</p>
+            <span class="otherL">
+                <img src="http://www.hualian.sh.cn/templates/PC/images/test/weixin.jpg" width="104" height="104">
+                <b>扫描微信二维码</b>
+            </span>
+            <span class="otherL">
+                <img src="http://www.hualian.sh.cn/templates/PC/images/test/xinlang.png" width="104" height="104">
+                <b>扫描微博二维码</b>
+            </span>
+        </div>
+    </div>
+</div>
+<!--footBot start-->
+<div class="footBot">
+    <div class="footBotM">
+        版权所有 上海华联商厦股份有限公司有限责任公司 豫ICP 579764531号 电话0371-66229656 传真0371-66221120
+        <i>技术支持：企汇网<strong><a href="javascript:;" target="_blank">营业执照信息公示</a></strong></i>
+
+    </div>
+</div>
+
+<!--rightSide start-->
+<div class="rightSide" style="display:none;">
+    <a class="backTop marb"></a>
+    <a href="javascript:;" class="QQ marb" target="_blank"><b>在线QQ</b></a>
+    <a href="javascript:;" class="xL marb" target="_blank"><b>新浪微博</b></a>
+    <a href="#" class="dianh marb"><b>66280114</b></a>
+    <a href="javascript:void(0);" class="ewm"></a>
+    <div class="rightEwm" style="display:none">
+        <span class="rightEwmM">
+            <img src="http://www.hualian.sh.cn/templates/PC/images/test/tengxun.png" width="104" height="104">
+            <b>腾讯微博</b>
+        </span>
+        <span class="rightEwmM">
+            <img src="http://www.hualian.sh.cn/templates/PC/images/test/weixin.jpg" width="104" height="104">
+            <b>微信</b>
+        </span>
+        <em class="rightJt"></em>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    //banner轮播
+    jQuery(".sliderOne").slide({
+        mainCell: ".sliderOneM",
+        titCell: ".tabOne li",
+        effect: "fold",
+        autoPlay: true,
+        delayTime: 600,
+        trigger: "click"
+    });
+    //关于我们切换效果
+    jQuery(".sliderTwo").slide({
+        mainCell: ".sliderTwoM",
+        effect: "fold",
+        autoPlay: true,
+        delayTime: 1100,
+        easing: "easeOutCirc"
+    });
+    //商品中心效果一
+    jQuery("#productOne").slide({
+        mainCell: "#tabMianListOne",
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 4,
+        prevCell: ".prev1",
+        nextCell: ".next1"
+    });
+    //商品中心效果二
+    jQuery("#productTwo").slide({
+        mainCell: "#tabMianListTwo",
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 4,
+        prevCell: ".prev1",
+        nextCell: ".next1"
+    });
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 450) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 450) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>
